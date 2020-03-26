@@ -11,8 +11,23 @@
   </head>
   <body>
   
-     
+      <div class="container">
+        <div class="jumbotron">
         <h1>Things Survey.</h1>   
+         <h2>Please fill out the following</h2> 
+        <div>
+          <form id="input">
+            <div class="form-group">
+              <label for="insert">Name</label>
+              <input id="insert" class="form-control" type="text">
+            </div>
+          </form>
+        </div>
+        <div class="form-group">
+          <label for="born">Date of birth:</label>
+          <input id="born" class="form-control" type="date">
+        </div>
+
         <h2>Choose your favorite ice cream</h2>  
           <div class="radio">
             <label>
@@ -32,13 +47,35 @@
               Pistachio
             </label>
           </div> 
-          
-          
-          
-  
 
-
-    
-    
+          <h2>Choose your favorite song.</h2>  
+          <div class="radio">
+            <label>
+              <input type="radio" name="song" value="wreckingBall">
+              Wrecking Ball -Miley Cirus
+            </label>
+          </div> 
+          <div class="radio">
+            <label>
+              <input type="radio" name="song" value="mirros">
+              Mirrors -Justin Timberlake
+            </label>
+          </div> 
+          <div class="radio">
+            <label>
+              <input type="radio" name="song" value="corano">
+              Wake Me Up When COVID-19 Ends -Jr. Devs, David, Tyler
+            </label>
+          </div> 
+         
+            
+        <h2>Choose your favorite color</h2>
+          <div class="form-group">
+            <label for="color"></label>
+            <input id="color" class="form-control" type="color">
+          </div>
+            
+        </div>   
+      </div>
   </body>
 </html>
